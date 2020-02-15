@@ -13,7 +13,7 @@ as a dependency but provides a simple, easy-to-learn and easy-to-implement synta
 
 
 ## Getting Started
-### Step i: Install Package(laravel/passport)
+### Step 1: Install Package(laravel/passport)
 
 ```` composer require laravel/passport ````
 
@@ -28,7 +28,7 @@ Laravel\Passport\PassportServiceProvider::class,
 
 ````
 
-## Step ii: Run Migration and Install
+## Step 2: Run Migration and Install
 
 ```javascript 
 
@@ -39,7 +39,7 @@ php artisan passport:install
 ````
 
 
-## Step iii: Passport Configuration  app/User.php
+## Step 3: Passport Configuration  app/User.php
 
 ```javascript 
 
@@ -107,7 +107,7 @@ class AuthServiceProvider extends ServiceProvider
 
 ````
 
-## Step iv :config/auth.php
+## Step 4 :config/auth.php
 
 ```javascript 
 
@@ -125,7 +125,7 @@ return [
     ],
 
 ````
-## Step v: Create API Route
+## Step 5: Create API Route
 
 ```javascript 
 
@@ -156,7 +156,7 @@ Route::group(['prefix' => 'v1'],function(){
 ````
 
 
-## Step vi: Create the Controller
+## Step 6: Create the Controller
 
 ```javascript 
 
@@ -227,7 +227,7 @@ class UserController extends Controller
 
 
 ````
-## Step vii: Run 
+## Step 7: Run 
 
 ```javascript 
 
