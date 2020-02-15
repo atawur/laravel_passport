@@ -5,9 +5,9 @@ you'll bring it into your app with Composer. It uses the League OAuth2 Server pa
 as a dependency but provides a simple, easy-to-learn and easy-to-implement syntax
 
 ### You have to just follow a few steps to get following web services
-##### Login API
-##### Register API
-##### Details API
+##### User Login 
+##### User Register 
+##### User Details 
 
 
 
